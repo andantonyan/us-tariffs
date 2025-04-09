@@ -1,0 +1,33 @@
+{
+  "name": "us-tariffs",
+  "version": "1.0.0",
+  "description": "Generates completely fair and unbiased random tariffs for every country. Totally not a joke.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified, but trust us, the tariffs are perfectly balanced.\" && exit 0",
+    "start": "node -e \"console.log(require('./index.js'))\""
+  },
+  "keywords": [
+    "joke",
+    "satire",
+    "tariffs",
+    "politics",
+    "economics",
+    "random",
+    "countries",
+    "trade"
+  ],
+  "author": "andantonyan",
+  "license": "MIT",
+  "dependencies": {
+    "countries-list": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andantyona/us-tariffs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andantonyan/us-tariffs/issues"
+  },
+  "homepage": "https://github.com/andantonyan/us-tariffs#readme"
+}
