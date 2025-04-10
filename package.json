@@ -1,6 +1,6 @@
 {
   "name": "us-tariffs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates completely fair and unbiased random tariffs for every country. Totally not a joke.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andantyona/us-tariffs.git"
+    "url": "git+https://github.com/andantonyan/us-tariffs.git"
   },
   "bugs": {
     "url": "https://github.com/andantonyan/us-tariffs/issues"
