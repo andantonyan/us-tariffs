@@ -3,9 +3,11 @@
 [![NPM version](https://img.shields.io/npm/v/us-tariffs.svg)](https://www.npmjs.com/package/us-tariffs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Generates completely fair, unbiased, and definitely *not* random tariffs for every country in the world. Based on sophisticated algorithms derived from watching the news.
+Generates completely fair, unbiased, and definitely *not* random tariffs for every country in the world. Based on
+sophisticated algorithms derived from watching the news.
 
-**\* This is a joke package.** Please do not use this for actual economic planning or international trade negotiations. Seriously.
+**\* This is a joke package.** Please do not use this for actual economic planning or international trade negotiations.
+Seriously.
 
 ## Installation
 
@@ -15,11 +17,11 @@ npm install us-tariffs
 
 ## Usage
 
-Simply require the package, and you'll get an object containing every country mapped to its newly assigned, totally logical tariff rate.
+Simply require the package, and you'll get an object containing every country mapped to its newly assigned, totally
+logical tariff rate.
 
 ```javascript
-// CommonJS
-const tariffs = require('us-tariffs');
+import tariffs from 'us-tariffs';
 
 console.log(tariffs['Canada']); // Output: e.g., '73.12%' (will vary)
 console.log(tariffs['Mexico']); // Output: e.g., '15.89%' (will vary)
@@ -47,11 +49,13 @@ Output might look like:
 
 ## Why?
 
-Because sometimes, global trade policy feels like someone just rolled a dice for each country. This package simulates that feeling with alarming accuracy.
+Because sometimes, global trade policy feels like someone just rolled a dice for each country. This package simulates
+that feeling with alarming accuracy.
 
 ## Contributing
 
-Feel free to submit pull requests with even more sophisticated (read: random) tariff calculation methods. Or just fix typos.
+Feel free to submit pull requests with even more sophisticated (read: random) tariff calculation methods. Or just fix
+typos.
 
 ## License
 

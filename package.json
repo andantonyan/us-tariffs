@@ -1,8 +1,9 @@
 {
   "name": "us-tariffs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates completely fair and unbiased random tariffs for every country. Totally not a joke.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified, but trust us, the tariffs are perfectly balanced.\" && exit 0",
     "start": "node -e \"console.log(require('./index.js'))\""
